@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>简易计算器</title>
+    <link rel="stylesheet" type="text/css" href="./css/calc.css">
+</head>
+
+<body>
+<!-- 头部 -->
+    <header>
+        <h1>超级简易计算器</h1>
+    </header>
+    <!-- 中间主体部分 -->
+    <article>
+        <form action="" method="" name="calcform">
+        <!-- 第一个数字 -->
+            <input type="text" name="num1" placeholder="第一个数字">
+            <!-- 选择一个符号 -->
+            <select name="char" id="char">
+                <option value="+" selected>+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <!-- 第二个数字 -->
+            <input type="text" name="num2" placeholder="第二个数字">
+            <!-- 等于号 -->
+            <input type="button" name="btn" onclick="calc()" value="=" class="btn">
+            <!-- 结果区域 -->
+            <input type="text" name="result" placeholder="结果区域" id="result">
+        </form>
+    </article>
+    <script type="text/javascript" src="./js/calc.js"></script>
+</body>
+
+</html>

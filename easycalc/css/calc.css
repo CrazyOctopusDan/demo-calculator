@@ -1,0 +1,51 @@
+/*reset*/
+*{
+	padding: 0;
+	margin:0;
+}
+
+body {
+	background-color: #eee;
+}
+/*设置头部*/
+header {
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	background-color: #333;
+	color: #35b558;
+	padding-left:5px;
+}
+
+/*设置中间部分*/
+article {
+	height: 300px;
+}
+
+article form {
+	margin:150px auto;
+	text-align: center;
+}
+/*输入框*/
+article form input {
+	box-sizing: border-box;
+	display: inline-block;
+	padding-left: 15px;
+	height: 30px;
+	width: 150px;
+	font-size: 20px;
+}
+
+article form .btn {
+	width: 30px;
+}
+/*为符号选择*/
+article form select {
+	width: 60px;
+	height: 30px;
+	font-size: 50px;
+}
+
+article form select option {
+	font-size: 50px;
+}
